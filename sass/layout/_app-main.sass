@@ -1,0 +1,61 @@
+.app
+    background: #ffffffe3
+    width: 90%
+    max-width: 50rem
+    margin: 1rem auto 
+    border-radius: 1rem
+    padding: 1.5rem
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2)
+    & h1
+        font-size: 3rem
+        color: #001e4d
+        font-weight: 700
+        border-bottom: 1px solid #333
+        padding-bottom: 1rem
+
+.quiz
+    padding: 1rem 0
+    & h2
+        font-size: 2rem
+        color: #001e4d
+        font-weight: 700
+
+.btn
+    background: white
+    outline: none
+    border: 0
+    color: #222
+    font-weight: 500
+    width: 100%
+    padding: 1rem
+    margin: 1rem 0
+    text-align: left
+    border-radius: 0.4rem
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+    cursor: pointer
+    transition: all 0.3s
+    &:hover:not([disabled])
+        background: #FAC213
+        color: white
+
+.btn:disabled
+    cursor: no-drop
+
+#next-btn
+    background: #FAC213
+    color: white
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2)
+    font-weight: 500
+    width: 15rem
+    border: 0
+    padding: 1rem
+    margin: 2rem auto 0
+    border-radius: 0.4rem
+    cursor: pointer
+    display: none
+
+.correct
+    background: #9aeabc
+
+.incorrect
+    background: #ff9393
